@@ -23,6 +23,10 @@ app.config['DOWNLOAD_PATH'] = '~/Downloads'
 def too_large(e):
     return "File is too large", 413
 
+@app.route('/login')
+def showLogin():
+    return render_template('login.html')
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     files = os.listdir(app.config['UPLOAD_PATH'])
