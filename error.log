@@ -1,0 +1,197 @@
+[2021-03-23 16:49:02 +0000] [2865354] [INFO] Starting gunicorn 20.0.4
+[2021-03-23 16:49:02 +0000] [2865354] [INFO] Listening at: http://0.0.0.0:5000 (2865354)
+[2021-03-23 16:49:02 +0000] [2865354] [INFO] Using worker: gthread
+[2021-03-23 16:49:02 +0000] [2865356] [INFO] Booting worker with pid: 2865356
+[2021-03-23 16:49:02 +0000] [2865357] [INFO] Booting worker with pid: 2865357
+[2021-03-23 16:49:02 +0000] [2865358] [INFO] Booting worker with pid: 2865358
+[2021-03-23 16:49:02 +0000] [2865359] [INFO] Booting worker with pid: 2865359
+[2021-03-23 16:49:02 +0000] [2865360] [INFO] Booting worker with pid: 2865360
+[2021-03-29 02:40:14 +0000] [2865354] [INFO] Handling signal: term
+[2021-03-29 02:40:15 +0000] [2865356] [INFO] Worker exiting (pid: 2865356)
+[2021-03-29 02:40:15 +0000] [2865357] [INFO] Worker exiting (pid: 2865357)
+[2021-03-29 02:40:15 +0000] [2865358] [INFO] Worker exiting (pid: 2865358)
+[2021-03-29 02:40:15 +0000] [2865359] [INFO] Worker exiting (pid: 2865359)
+[2021-03-29 02:40:44 +0000] [2865354] [INFO] Shutting down: Master
+[2021-03-29 02:40:53 +0000] [1709] [INFO] Starting gunicorn 20.0.4
+[2021-03-29 02:40:53 +0000] [1709] [INFO] Listening at: http://0.0.0.0:5000 (1709)
+[2021-03-29 02:40:53 +0000] [1709] [INFO] Using worker: gthread
+[2021-03-29 02:40:53 +0000] [1901] [INFO] Booting worker with pid: 1901
+[2021-03-29 02:40:53 +0000] [1902] [INFO] Booting worker with pid: 1902
+[2021-03-29 02:40:53 +0000] [1903] [INFO] Booting worker with pid: 1903
+[2021-03-29 02:40:53 +0000] [1904] [INFO] Booting worker with pid: 1904
+[2021-03-29 02:40:53 +0000] [1905] [INFO] Booting worker with pid: 1905
+[2021-04-25 22:00:19 +0000] [1709] [INFO] Handling signal: term
+[2021-04-25 22:00:20 +0000] [1904] [INFO] Worker exiting (pid: 1904)
+[2021-04-25 22:00:20 +0000] [1903] [INFO] Worker exiting (pid: 1903)
+[2021-04-25 22:00:20 +0000] [1902] [INFO] Worker exiting (pid: 1902)
+[2021-04-25 22:00:20 +0000] [1905] [INFO] Worker exiting (pid: 1905)
+[2021-04-25 22:00:49 +0000] [1709] [INFO] Shutting down: Master
+[2021-04-25 22:25:57 +0000] [271988] [INFO] Starting gunicorn 20.0.4
+[2021-04-25 22:25:57 +0000] [271988] [INFO] Listening at: http://0.0.0.0:5000 (271988)
+[2021-04-25 22:25:57 +0000] [271988] [INFO] Using worker: gthread
+[2021-04-25 22:25:57 +0000] [271991] [INFO] Booting worker with pid: 271991
+[2021-04-25 22:25:57 +0000] [271992] [INFO] Booting worker with pid: 271992
+[2021-04-25 22:25:57 +0000] [271993] [INFO] Booting worker with pid: 271993
+[2021-04-25 22:25:57 +0000] [271994] [INFO] Booting worker with pid: 271994
+[2021-04-25 22:25:58 +0000] [271995] [INFO] Booting worker with pid: 271995
+[2021-04-27 13:46:45 +0000] [1711] [INFO] Starting gunicorn 20.0.4
+[2021-04-27 13:46:45 +0000] [1711] [INFO] Listening at: http://0.0.0.0:5000 (1711)
+[2021-04-27 13:46:45 +0000] [1711] [INFO] Using worker: gthread
+[2021-04-27 13:46:45 +0000] [1912] [INFO] Booting worker with pid: 1912
+[2021-04-27 13:46:45 +0000] [1913] [INFO] Booting worker with pid: 1913
+[2021-04-27 13:46:45 +0000] [1914] [INFO] Booting worker with pid: 1914
+[2021-04-27 13:46:45 +0000] [1915] [INFO] Booting worker with pid: 1915
+[2021-04-27 13:46:45 +0000] [1916] [INFO] Booting worker with pid: 1916
+[2021-04-27 14:50:10 +0000] [1711] [CRITICAL] WORKER TIMEOUT (pid:1912)
+[2021-04-27 14:50:10 +0000] [1711] [CRITICAL] WORKER TIMEOUT (pid:1913)
+[2021-04-27 14:50:10 +0000] [1711] [CRITICAL] WORKER TIMEOUT (pid:1914)
+[2021-04-27 14:50:10 +0000] [1711] [CRITICAL] WORKER TIMEOUT (pid:1915)
+[2021-04-27 14:50:10 +0000] [1711] [CRITICAL] WORKER TIMEOUT (pid:1916)
+[2021-04-27 14:50:10 +0000] [1914] [INFO] Worker exiting (pid: 1914)
+[2021-04-27 14:50:10 +0000] [1916] [INFO] Worker exiting (pid: 1916)
+[2021-04-27 14:50:10 +0000] [1915] [INFO] Worker exiting (pid: 1915)
+[2021-04-27 14:50:10 +0000] [1912] [INFO] Worker exiting (pid: 1912)
+[2021-04-27 14:50:10 +0000] [1913] [INFO] Worker exiting (pid: 1913)
+[2021-04-27 14:50:11 +0000] [2041] [INFO] Booting worker with pid: 2041
+[2021-04-27 14:50:11 +0000] [2042] [INFO] Booting worker with pid: 2042
+[2021-04-27 14:50:11 +0000] [2043] [INFO] Booting worker with pid: 2043
+[2021-04-27 14:50:11 +0000] [2044] [INFO] Booting worker with pid: 2044
+[2021-04-27 14:50:11 +0000] [2045] [INFO] Booting worker with pid: 2045
+[2021-04-28 19:17:44 +0000] [1744] [INFO] Starting gunicorn 20.0.4
+[2021-04-28 20:06:50 +0000] [1743] [INFO] Starting gunicorn 20.0.4
+[2021-05-02 13:13:13 +0000] [18836] [INFO] Starting gunicorn 20.0.4
+[2021-05-02 13:13:13 +0000] [18836] [INFO] Listening at: http://0.0.0.0:5000 (18836)
+[2021-05-02 13:13:13 +0000] [18836] [INFO] Using worker: gthread
+[2021-05-02 13:13:13 +0000] [18838] [INFO] Booting worker with pid: 18838
+[2021-05-02 13:13:13 +0000] [18839] [INFO] Booting worker with pid: 18839
+[2021-05-02 13:13:13 +0000] [18840] [INFO] Booting worker with pid: 18840
+[2021-05-02 13:13:13 +0000] [18841] [INFO] Booting worker with pid: 18841
+[2021-05-02 13:13:14 +0000] [18842] [INFO] Booting worker with pid: 18842
+[2021-06-17 18:22:20 +0000] [1726] [INFO] Starting gunicorn 20.0.4
+[2021-06-17 18:22:20 +0000] [1726] [INFO] Listening at: http://0.0.0.0:5000 (1726)
+[2021-06-17 18:22:20 +0000] [1726] [INFO] Using worker: gthread
+[2021-06-17 18:22:20 +0000] [1925] [INFO] Booting worker with pid: 1925
+[2021-06-17 18:22:20 +0000] [1927] [INFO] Booting worker with pid: 1927
+[2021-06-17 18:22:20 +0000] [1928] [INFO] Booting worker with pid: 1928
+[2021-06-17 18:22:20 +0000] [1929] [INFO] Booting worker with pid: 1929
+[2021-06-17 18:22:20 +0000] [1930] [INFO] Booting worker with pid: 1930
+[2021-06-18 15:53:03 +0000] [1726] [INFO] Handling signal: term
+[2021-06-18 15:53:03 +0000] [1928] [INFO] Worker exiting (pid: 1928)
+[2021-06-18 15:53:03 +0000] [1930] [INFO] Worker exiting (pid: 1930)
+[2021-06-18 15:53:03 +0000] [1925] [INFO] Worker exiting (pid: 1925)
+[2021-06-18 15:53:03 +0000] [1927] [INFO] Worker exiting (pid: 1927)
+[2021-06-18 15:53:03 +0000] [1929] [INFO] Worker exiting (pid: 1929)
+[2021-06-18 15:53:04 +0000] [1726] [INFO] Shutting down: Master
+[2021-06-18 18:47:39 +0000] [1735] [INFO] Starting gunicorn 20.0.4
+[2021-06-18 18:47:39 +0000] [1735] [INFO] Listening at: http://0.0.0.0:5000 (1735)
+[2021-06-18 18:47:39 +0000] [1735] [INFO] Using worker: gthread
+[2021-06-18 18:47:39 +0000] [1934] [INFO] Booting worker with pid: 1934
+[2021-06-18 18:47:39 +0000] [1935] [INFO] Booting worker with pid: 1935
+[2021-06-18 18:47:39 +0000] [1937] [INFO] Booting worker with pid: 1937
+[2021-06-18 18:47:39 +0000] [1939] [INFO] Booting worker with pid: 1939
+[2021-06-18 18:47:39 +0000] [1940] [INFO] Booting worker with pid: 1940
+[2021-06-19 00:53:10 +0000] [1735] [CRITICAL] WORKER TIMEOUT (pid:1934)
+[2021-06-19 00:53:10 +0000] [1735] [CRITICAL] WORKER TIMEOUT (pid:1935)
+[2021-06-19 00:53:10 +0000] [1735] [CRITICAL] WORKER TIMEOUT (pid:1937)
+[2021-06-19 00:53:10 +0000] [1934] [INFO] Worker exiting (pid: 1934)
+[2021-06-19 00:53:10 +0000] [1735] [CRITICAL] WORKER TIMEOUT (pid:1939)
+[2021-06-19 00:53:10 +0000] [1735] [CRITICAL] WORKER TIMEOUT (pid:1940)
+[2021-06-19 00:53:10 +0000] [1939] [INFO] Worker exiting (pid: 1939)
+[2021-06-19 00:53:10 +0000] [1940] [INFO] Worker exiting (pid: 1940)
+[2021-06-19 00:53:10 +0000] [1937] [INFO] Worker exiting (pid: 1937)
+[2021-06-19 00:53:10 +0000] [1935] [INFO] Worker exiting (pid: 1935)
+[2021-06-19 00:53:11 +0000] [2087] [INFO] Booting worker with pid: 2087
+[2021-06-19 00:53:11 +0000] [2088] [INFO] Booting worker with pid: 2088
+[2021-06-19 00:53:11 +0000] [2091] [INFO] Booting worker with pid: 2091
+[2021-06-19 00:53:11 +0000] [2092] [INFO] Booting worker with pid: 2092
+[2021-06-19 00:53:11 +0000] [2093] [INFO] Booting worker with pid: 2093
+[2021-06-19 00:56:23 +0000] [1735] [INFO] Handling signal: term
+[2021-06-19 00:56:24 +0000] [2092] [INFO] Worker exiting (pid: 2092)
+[2021-06-19 00:56:24 +0000] [2091] [INFO] Worker exiting (pid: 2091)
+[2021-06-19 00:56:24 +0000] [2093] [INFO] Worker exiting (pid: 2093)
+[2021-06-19 00:56:24 +0000] [2087] [INFO] Worker exiting (pid: 2087)
+[2021-06-19 00:56:24 +0000] [2088] [INFO] Worker exiting (pid: 2088)
+[2021-06-19 00:56:24 +0000] [1735] [INFO] Shutting down: Master
+[2021-06-22 00:36:16 +0000] [1734] [INFO] Starting gunicorn 20.0.4
+[2021-06-22 00:36:16 +0000] [1734] [INFO] Listening at: http://0.0.0.0:5000 (1734)
+[2021-06-22 00:36:16 +0000] [1734] [INFO] Using worker: gthread
+[2021-06-22 00:36:16 +0000] [1930] [INFO] Booting worker with pid: 1930
+[2021-06-22 00:36:16 +0000] [1932] [INFO] Booting worker with pid: 1932
+[2021-06-22 00:36:16 +0000] [1933] [INFO] Booting worker with pid: 1933
+[2021-06-22 00:36:16 +0000] [1934] [INFO] Booting worker with pid: 1934
+[2021-06-22 00:36:16 +0000] [1935] [INFO] Booting worker with pid: 1935
+[2021-07-03 15:02:57 +0000] [1734] [CRITICAL] WORKER TIMEOUT (pid:1930)
+[2021-07-03 15:02:57 +0000] [1734] [CRITICAL] WORKER TIMEOUT (pid:1932)
+[2021-07-03 15:02:57 +0000] [1734] [CRITICAL] WORKER TIMEOUT (pid:1933)
+[2021-07-03 15:02:57 +0000] [1734] [CRITICAL] WORKER TIMEOUT (pid:1934)
+[2021-07-03 15:02:57 +0000] [1734] [CRITICAL] WORKER TIMEOUT (pid:1935)
+[2021-07-03 15:02:57 +0000] [1934] [INFO] Worker exiting (pid: 1934)
+[2021-07-03 15:02:57 +0000] [1933] [INFO] Worker exiting (pid: 1933)
+[2021-07-03 15:02:57 +0000] [1935] [INFO] Worker exiting (pid: 1935)
+[2021-07-03 15:02:57 +0000] [1930] [INFO] Worker exiting (pid: 1930)
+[2021-07-03 15:02:57 +0000] [1932] [INFO] Worker exiting (pid: 1932)
+[2021-07-03 15:02:57 +0000] [2105] [INFO] Booting worker with pid: 2105
+[2021-07-03 15:02:57 +0000] [2107] [INFO] Booting worker with pid: 2107
+[2021-07-03 15:02:57 +0000] [2108] [INFO] Booting worker with pid: 2108
+[2021-07-03 15:02:57 +0000] [2112] [INFO] Booting worker with pid: 2112
+[2021-07-03 15:02:58 +0000] [2115] [INFO] Booting worker with pid: 2115
+[2021-07-04 20:42:21 +0000] [1734] [CRITICAL] WORKER TIMEOUT (pid:2105)
+[2021-07-04 20:42:21 +0000] [2105] [INFO] Worker exiting (pid: 2105)
+[2021-07-04 20:42:22 +0000] [21779] [INFO] Booting worker with pid: 21779
+[2021-07-05 14:34:00 +0000] [1730] [INFO] Starting gunicorn 20.0.4
+[2021-07-05 14:34:00 +0000] [1730] [INFO] Listening at: http://0.0.0.0:5000 (1730)
+[2021-07-05 14:34:00 +0000] [1730] [INFO] Using worker: gthread
+[2021-07-05 14:34:00 +0000] [1933] [INFO] Booting worker with pid: 1933
+[2021-07-05 14:34:00 +0000] [1934] [INFO] Booting worker with pid: 1934
+[2021-07-05 14:34:00 +0000] [1935] [INFO] Booting worker with pid: 1935
+[2021-07-05 14:34:00 +0000] [1936] [INFO] Booting worker with pid: 1936
+[2021-07-05 14:34:00 +0000] [1937] [INFO] Booting worker with pid: 1937
+[2021-07-07 00:32:24 +0000] [1730] [CRITICAL] WORKER TIMEOUT (pid:1933)
+[2021-07-07 00:32:24 +0000] [1730] [CRITICAL] WORKER TIMEOUT (pid:1934)
+[2021-07-07 00:32:24 +0000] [1730] [CRITICAL] WORKER TIMEOUT (pid:1935)
+[2021-07-07 00:32:24 +0000] [1730] [CRITICAL] WORKER TIMEOUT (pid:1936)
+[2021-07-07 00:32:24 +0000] [1730] [CRITICAL] WORKER TIMEOUT (pid:1937)
+[2021-07-07 00:32:24 +0000] [1936] [INFO] Worker exiting (pid: 1936)
+[2021-07-07 00:32:24 +0000] [1933] [INFO] Worker exiting (pid: 1933)
+[2021-07-07 00:32:24 +0000] [1934] [INFO] Worker exiting (pid: 1934)
+[2021-07-07 00:32:24 +0000] [1935] [INFO] Worker exiting (pid: 1935)
+[2021-07-07 00:32:24 +0000] [1937] [INFO] Worker exiting (pid: 1937)
+[2021-07-07 00:32:25 +0000] [2108] [INFO] Booting worker with pid: 2108
+[2021-07-07 00:32:25 +0000] [2109] [INFO] Booting worker with pid: 2109
+[2021-07-07 00:32:25 +0000] [2110] [INFO] Booting worker with pid: 2110
+[2021-07-07 00:32:25 +0000] [2112] [INFO] Booting worker with pid: 2112
+[2021-07-07 00:32:25 +0000] [2113] [INFO] Booting worker with pid: 2113
+[2021-07-07 01:46:02 +0000] [1730] [CRITICAL] WORKER TIMEOUT (pid:2110)
+[2021-07-07 01:46:37 +0000] [2110] [INFO] Worker exiting (pid: 2110)
+[2021-07-07 01:46:37 +0000] [4296] [INFO] Booting worker with pid: 4296
+[2021-07-08 00:15:11 +0000] [1730] [INFO] Starting gunicorn 20.0.4
+[2021-07-08 00:15:11 +0000] [1730] [INFO] Listening at: http://0.0.0.0:5000 (1730)
+[2021-07-08 00:15:11 +0000] [1730] [INFO] Using worker: gthread
+[2021-07-08 00:15:11 +0000] [1924] [INFO] Booting worker with pid: 1924
+[2021-07-08 00:15:11 +0000] [1925] [INFO] Booting worker with pid: 1925
+[2021-07-08 00:15:11 +0000] [1927] [INFO] Booting worker with pid: 1927
+[2021-07-08 00:15:11 +0000] [1929] [INFO] Booting worker with pid: 1929
+[2021-07-08 00:15:11 +0000] [1930] [INFO] Booting worker with pid: 1930
+[2021-07-12 23:27:11 +0000] [1727] [INFO] Starting gunicorn 20.0.4
+[2021-07-12 23:27:11 +0000] [1727] [INFO] Listening at: http://0.0.0.0:5000 (1727)
+[2021-07-12 23:27:11 +0000] [1727] [INFO] Using worker: gthread
+[2021-07-12 23:27:11 +0000] [1926] [INFO] Booting worker with pid: 1926
+[2021-07-12 23:27:11 +0000] [1927] [INFO] Booting worker with pid: 1927
+[2021-07-12 23:27:11 +0000] [1928] [INFO] Booting worker with pid: 1928
+[2021-07-12 23:27:11 +0000] [1929] [INFO] Booting worker with pid: 1929
+[2021-07-12 23:27:11 +0000] [1930] [INFO] Booting worker with pid: 1930
+[2021-07-12 23:57:45 +0000] [1727] [CRITICAL] WORKER TIMEOUT (pid:1926)
+[2021-07-12 23:57:45 +0000] [1727] [CRITICAL] WORKER TIMEOUT (pid:1927)
+[2021-07-12 23:57:45 +0000] [1727] [CRITICAL] WORKER TIMEOUT (pid:1928)
+[2021-07-12 23:57:45 +0000] [1926] [INFO] Worker exiting (pid: 1926)
+[2021-07-12 23:57:45 +0000] [1727] [CRITICAL] WORKER TIMEOUT (pid:1929)
+[2021-07-12 23:57:45 +0000] [1727] [CRITICAL] WORKER TIMEOUT (pid:1930)
+[2021-07-12 23:57:45 +0000] [1928] [INFO] Worker exiting (pid: 1928)
+[2021-07-12 23:57:45 +0000] [1929] [INFO] Worker exiting (pid: 1929)
+[2021-07-12 23:57:45 +0000] [1930] [INFO] Worker exiting (pid: 1930)
+[2021-07-12 23:57:45 +0000] [1927] [INFO] Worker exiting (pid: 1927)
+[2021-07-12 23:57:46 +0000] [2066] [INFO] Booting worker with pid: 2066
+[2021-07-12 23:57:46 +0000] [2067] [INFO] Booting worker with pid: 2067
+[2021-07-12 23:57:46 +0000] [2068] [INFO] Booting worker with pid: 2068
+[2021-07-12 23:57:46 +0000] [2069] [INFO] Booting worker with pid: 2069
+[2021-07-12 23:57:46 +0000] [2070] [INFO] Booting worker with pid: 2070

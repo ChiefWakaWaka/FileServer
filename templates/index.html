@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>File Transfer Server</title>
+    <link rel="stylesheet" href='/static/main.css' />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form action="/" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+              <label>Select file</label>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" name="file" id="file">
+                <label class="custom-file-label" for="file">Select file...</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h1>Stored files:</h1>
+    <ul>
+    {% for file in files %}
+      <li>
+        <a class="filename" href="{{ (request.path + '/' if request.path != '/' else '') + file }}">
+          {{ (request.path + '/' if request.path != '/' else '') + file }}
+        </a>
+	<a class="download-link" href="{{ (request.path + '/' if request.path != '/' else '') + file }}" download>
+          DOWNLOAD
+
+	</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
