@@ -27,6 +27,10 @@ def too_large(e):
 def showLogin():
     return render_template('login.html')
 
+@app.route('/login', method=['GET', 'POST'])
+def submitLogin():
+    return render_template('index.html')
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     files = os.listdir(app.config['UPLOAD_PATH'])
