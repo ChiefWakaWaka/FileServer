@@ -1,49 +1,79 @@
+body {
+    background: #282828;
+    font-family: 'Fira Code', monospace;
+    color: #ebdbb2;
+}
+
 ul {
     padding: 0;
-    background: #f2f2f2;
+    background: #282828;
     text-align: center;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-top: 5px solid #000;
+    border-top: 1px solid #ebdbb2;
 }
 ul li {
-    display: block;
-    border-bottom: 5px solid #000;
-    width: 20%;
-    padding: 5px 0px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 1px 1px;
+    margin: 5px 0%;
 }
 ul li a {
-    display: block;
-    padding: 10px 0px;
-    color: #333;
-    text-decoration: none;
+    display: inline;
     width: 100%;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
 }
+
+input {
+    background-color: #282828;
+    color: #ebdbb2;
+    border: #ebdbb2 solid 1px;
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #282828;
+    color: #ebdbb2;
+    border: #ebdbb2 solid 1px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+
+.block {
+    border: #ebdbb2 solid 1px;
+    width: 50%;
+    margin: 2%;
+    padding: 0% 5%;
+}
+
 .filename {
-    color: red;
+    color: #458588;
     font-size-adjust: 0.6;
 }
 .filename:hover {
     color: #fff;
     background: #939393;
 }
-.download-link {
-    background: #cc0000;
-    color: white;
-}
-.download-link:hover {
-    color: #cc0000;
-    background: white;
-}
+
+.download-link { color: black; }
+.download-link:hover { color: #458588; }
+.material-icons { font-size: 24px; }
+
 @media (max-width: 1250px){
     ul {
         flex-direction: column;
-	text-size: 18px;
+	    font-size: 24px;
     }
     ul li {
         width: 100%;
