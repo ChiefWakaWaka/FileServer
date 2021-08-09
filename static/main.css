@@ -64,11 +64,12 @@ button {
     background: #939393;
 }
 
+input.custom-file-input { width: 90%; }
 .download-link { color: black; text-align: left;}
 .download-link:hover { color: #458588; }
 .material-icons { font-size: 24px; }
 
-@media (max-width: 800px){
+@media (max-width: 1250px){
     .flex-container {
         flex-direction: column;
     }
