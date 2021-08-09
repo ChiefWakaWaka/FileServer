@@ -70,6 +70,9 @@ input.custom-file-input { width: 90%; }
 .material-icons { font-size: 24px; }
 
 @media (max-width: 1250px){
+    body {
+        font-size-adjust: 0.4;
+    }
     .flex-container {
         flex-direction: column;
     }
