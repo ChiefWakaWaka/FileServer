@@ -6,12 +6,9 @@
 #todo: File delete within app
 #todo: Move file uploads into a separate thread to prevent page hanging on large file upload
 
-import imghdr
 import os
-from flask import Flask, render_template, request, redirect, abort, \
-    send_from_directory, safe_join, send_file, url_for, Response
-from flask_autoindex import AutoIndex
-import flask_wtf
+from flask import Flask, render_template, request, redirect, abort, send_file
+import threading
 
 app = Flask(__name__)
 
