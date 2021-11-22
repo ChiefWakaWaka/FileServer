@@ -6,18 +6,26 @@
 #todo: File delete within app
 #todo: Move file uploads into a separate thread to prevent page hanging on large file upload
 
-import imghdr
 import os
-from flask import Flask, render_template, request, redirect, abort, \
-    send_from_directory, safe_join, send_file, url_for, Response
-from flask_autoindex import AutoIndex
-import flask_wtf
+from flask import Flask, render_template, request, redirect, abort, send_file
+from threading import Thread
 
 app = Flask(__name__)
 
 app.config['MAX_CONTENT_LENGTH'] = 500 * 1024 * 1024
 app.config['UPLOAD_PATH'] = 'uploads'
 app.config['DOWNLOAD_PATH'] = '~/Downloads'
+
+class PostReqHandler(Thread):
+    def __init__(self, request):
+        super(PostReqHandler, self).__init__()
+        self.request = request
+
+    def run(self):
+        if self.request.files:
+            file = self.request.files["file"] 
+            file.save(os.path.join(app.config["UPLOAD_PATH"], file.filename))
+            file.close()
 
 @app.errorhandler(413)
 def too_large(e):
@@ -27,12 +35,17 @@ def too_large(e):
 def index():
     files = os.listdir(app.config['UPLOAD_PATH'])
     if request.method == "POST":
-        print("POST request sent...")
-        if request.files:
-            file = request.files["file"]
-            file.save(os.path.join(app.config["UPLOAD_PATH"], file.filename))
-            print("File uploaded")
-            return redirect(request.url)
+        handler = PostReqHandler(request)
+        print("POST Request Handler Created...")
+            
+        '''
+        File currently saving, but file data is completely empty.
+        Most likely this is due to 'RuntimeError: Working outside of request context.' Error
+        Have fun future me
+        '''
+        
+        handler.start()
+        return redirect(request.url)
     return render_template('index.html', files=files)
 
 @app.route('/', defaults={'req_path': ''})
